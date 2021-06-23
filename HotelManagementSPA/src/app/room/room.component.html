@@ -1,0 +1,22 @@
+<div>
+    <h1>Room</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Room Type</th>
+          <th scope="col">Status</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let room of rooms">
+          <th scope="row">{{ room.id }}</th>
+          <td><a [routerLink]="['/room/', room.id ]">{{ room.roomTypeId }}</a></td>
+          <td>{{ room.status }}</td>
+          <td><a class="btn btn-outline-danger" (click)="delete(room.id)">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <a [routerLink]="['/room/', 0 ]" class="btn btn-outline-primary">Add</a>
+  </div>

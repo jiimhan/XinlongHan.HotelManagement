@@ -1,0 +1,49 @@
+<div *ngIf="invalid" class="alert alert-danger">
+    <!-- Display error message  -->
+    {{message}}
+</div>
+<form class="container">
+    <form (ngSubmit)="Update()">
+        <div class="form-group">
+            <label>Room</label>
+            <!-- <input type="number" class="form-control" id="roomId" name="roomId" [(ngModel)]="customer.roomId" /> -->
+            <div *ngFor="let rm of room">
+                <input type="radio" [value]="rm.id" name="roomtype" [(ngModel)]="customer.roomId" /> {{rm.id}}
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Customer Name</label>
+            <input type="text" class="form-control" id="cName" name="cName" [(ngModel)]="customer.cName" />
+        </div>
+        <div class="form-group">
+            <label>Address</label>
+            <input type="text" class="form-control" id="address" name="address" [(ngModel)]="customer.address" />
+        </div>
+        <div class="form-group">
+            <label>Phone</label>
+            <input type="text" class="form-control" id="phone" name="phone" [(ngModel)]="customer.phone" />
+        </div>
+        <div class="form-group">
+            <label>EMail</label>
+            <input type="text" class="form-control" id="email" name="email" [(ngModel)]="customer.email" />
+        </div>
+        <div class="form-group">
+            <label>CheckIn</label>
+            <input type="date" class="form-control" id="checkIn" name="checkIn"
+                [(ngModel)]="customer.checkIn" />
+        </div>
+        <div class="form-group">
+            <label>Total Person</label>
+            <input type="number" class="form-control" id="totalPersons" name="totalPersons" [(ngModel)]="customer.totalPersons" />
+        </div>
+        <div class="form-group">
+            <label>Book Days</label>
+            <input type="number" class="form-control" id="bookingDays" name="bookingDays" [(ngModel)]="customer.bookingDays" />
+        </div>
+        <div class="form-group">
+            <label>Advance</label>
+            <input type="number" class="form-control" id="advance" name="advance" [(ngModel)]="customer.advance" />
+        </div>
+        <input type="submit" class="btn btn-primary" value="submit" />
+    </form>
+</form>

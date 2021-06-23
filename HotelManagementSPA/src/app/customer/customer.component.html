@@ -1,0 +1,20 @@
+<div>
+    <h1>Customers</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Customer Name</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cus of custs">
+                <th scope="row">{{ cus.id }}</th>
+                <td><a [routerLink]="['/cust/', cus.id ]">{{ cus.cName }}</a></td>
+                <td><a class="btn btn-outline-danger" (click)="delete(cus.id)">Delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <a [routerLink]="['/cust/', 0 ]" class="btn btn-outline-primary">Add</a>
+</div>

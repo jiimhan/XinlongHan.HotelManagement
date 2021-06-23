@@ -1,0 +1,17 @@
+<div class="container">
+    <form (ngSubmit)="Update()">
+        <div class="form-group">
+            <label>Room Type Description</label>
+            <input type="text" class="form-control" id="rtdesc" name="rtdesc"
+                [(ngModel)]="typedetail.roomType.rtDesc" />
+        </div>
+        <div class="form-group">
+            <label>Rent</label>
+            <input type="number" class="form-control" id="rent" name="rent"
+                [(ngModel)]="typedetail.roomType.rent" />
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="submit" />
+    </form>
+</div>
+

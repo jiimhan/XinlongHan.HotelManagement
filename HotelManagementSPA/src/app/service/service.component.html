@@ -1,0 +1,26 @@
+<div>
+    <h1>Services</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Room Id</th>
+                <th scope="col">Service Description</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Service Date</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let ser of servs">
+                <th scope="row">{{ ser.id }}</th>
+                <td><a [routerLink]="['/serv/', ser.id ]">{{ ser.roomId }}</a></td>
+                <td>{{ ser.sdesc }}</td>
+                <td>{{ ser.amount }}</td>
+                <td>{{ ser.serviceDate | date:'shortDate' }}</td>
+                <td><a class="btn btn-outline-danger" (click)="delete(ser.id)">Delete</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <a [routerLink]="['/serv/', 0 ]" class="btn btn-outline-primary">Add</a>
+</div>

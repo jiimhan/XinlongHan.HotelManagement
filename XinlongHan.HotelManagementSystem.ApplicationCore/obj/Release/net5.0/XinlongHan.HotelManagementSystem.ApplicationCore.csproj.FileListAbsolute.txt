@@ -1,0 +1,15 @@
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\bin\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.deps.json
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\bin\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.runtimeconfig.json
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\bin\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.runtimeconfig.dev.json
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\bin\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.dll
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\bin\Release\net5.0\ref\XinlongHan.HotelManagementSystem.ApplicationCore.dll
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\bin\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.pdb
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.csproj.AssemblyReference.cache
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.AssemblyInfoInputs.cache
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.AssemblyInfo.cs
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.dll
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\ref\XinlongHan.HotelManagementSystem.ApplicationCore.dll
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.pdb
+D:\Traninning\final\XinlongHan.HotelManagementSystem.ApplicationCore\obj\Release\net5.0\XinlongHan.HotelManagementSystem.ApplicationCore.genruntimeconfig.cache

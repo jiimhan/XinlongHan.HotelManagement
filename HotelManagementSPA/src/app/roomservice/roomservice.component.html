@@ -1,0 +1,28 @@
+<div *ngIf="invalid" class="alert alert-danger">
+    <!-- Display error message -->
+    {{message}}
+</div>
+<div class="container">
+<form (ngSubmit)="Update()">
+    <div class="form-group">
+        <label>Room Id</label>
+        <input type="text" class="form-control" id="roomId" name="roomId" [(ngModel)]="servi.roomId" />
+        <!-- <div *ngFor="let type of roomtypes">
+                <input type="radio" [value]="type.id" name="roomtype" [(ngModel)]="room.roomTypeId" /> {{type.rtdesc}}
+            </div> -->
+    </div>
+    <div class="form-group">
+        <label>Service Description</label>
+        <input type="text" class="form-control" id="sdesc" name="sdesc" [(ngModel)]="servi.sdesc" />
+    </div>
+    <div class="form-group">
+        <label>Amount</label>
+        <input type="number" class="form-control" id="amount" name="amount" [(ngModel)]="servi.amount" />
+    </div>
+    <div class="form-group">
+        <label>Service Date</label>
+        <input type="date" class="form-control" id="serviceDate" name="serviceDate" [(ngModel)]="servi.serviceDate" />
+    </div>
+    <input type="submit" class="btn btn-primary" value="submit" />
+</form>
+</div>

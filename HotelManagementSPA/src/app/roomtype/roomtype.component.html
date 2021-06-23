@@ -1,0 +1,22 @@
+<div>
+    <h1>Room Types</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Room Type Description</th>
+          <th scope="col">Rent</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let type of types">
+          <th scope="row">{{ type.id }}</th>
+          <td><a [routerLink]="['/roomtype/', type.id ]">{{ type.rtDesc }}</a></td>
+          <td>{{ type.rent }}</td>
+          <td><a class="btn btn-outline-danger" (click)="delete(type.id)">Delete</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <a [routerLink]="['/roomtype/', 0 ]" class="btn btn-outline-primary">Add</a>
+  </div>
