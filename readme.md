@@ -1,1 +1,1 @@
-# Hotel ManageMent Design
+# Hotel Management System Design
